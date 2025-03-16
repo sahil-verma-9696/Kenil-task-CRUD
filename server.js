@@ -8,7 +8,9 @@ config();
 console.log(process.env.MONGO_URI);
 
 const app = express();
-const PORT = 5000;
+
+// update
+const PORT = 6000;
 
 app.use(express.json());
 app.use(cookieParser());
